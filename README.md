@@ -1,3 +1,11 @@
+# This is another Form created with Model Driven!
+In model driven form, validation not set as attribute, instead, they are located in the model object when initialize the formcontrol, formgroup.
+
+Also implement custom validator to validate the password and confirm password. 
+In this version, not need directive validator, only function exported for validation. But the interesting point here is how to relate password and confirm password similar to reverse switch on template version.
+
+Please see email.validator for more implementation!
+
 # ModelFormapp
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
