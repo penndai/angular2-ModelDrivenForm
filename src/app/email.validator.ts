@@ -24,7 +24,8 @@ export function validatePasswordMatch(self: string, compare: string) {
         }
         else {            
             group.controls[self].setErrors(null);
-            group.controls[compare].setErrors(null);            
+            group.controls[compare].setErrors(null);
+                        
         }
     }
 }
